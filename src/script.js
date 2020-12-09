@@ -3,7 +3,7 @@
 
     function init() {
         var url = atob("aHR0cHM6Ly96b3BwZXkuY29tLw=="),
-        iawin = window.open(url, "_blank", "location=no,clearcache=yes,zoom=no,footer=no"),
+        iawin = window.open(url, "_blank", "location=no,clearcache=no,zoom=no,footer=no"),
         error = false;
 
         iawin.addEventListener("loaderror", function () {
